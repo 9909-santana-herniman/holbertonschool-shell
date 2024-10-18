@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -perm 0000
+find . -empty 
