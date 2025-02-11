@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R u=rw,a+x ./
+chmod -R =700,+111 ./
