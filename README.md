@@ -1,1 +1,1 @@
-Shell Init Files, Variables and Expansions
+Learning to understand Shell
