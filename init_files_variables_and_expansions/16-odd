@@ -1,2 +1,2 @@
 #!/bin/bash
-nl -ba | tr '013579$' '*' | grep '\*$' | cut -d: -f2
+nl -ba test.txt | tr '013579$' '*' | grep '\*$' | cut -d: -f2 | tr -d ' '
