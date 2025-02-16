@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -Evn '^$' | cut -d: -f2 | tr -d '\r' | grep -nE '^[0-9]+:.*$' | cut -d: -f2 | grep -Evn '^[0-9]+:.*$' | tr -d '\r'
+nl -ba | tr '013579$' '*' | grep '\*$' | cut -d: -f2
